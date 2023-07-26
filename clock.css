@@ -1,0 +1,88 @@
+
+* {
+    margin: 0%;
+}
+
+
+
+@media (min-width : 577px) {
+
+    .bg-container {
+        background: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/drmukp5dw/image/upload/v1690106629/ocean-3605547_1280_eeztrm.jpg");
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clock-card {
+        color: antiquewhite;
+        background-color: transparent;
+
+        padding: 12px;
+        border-width: 20px;
+        border-radius: 12px;
+
+
+
+    }
+
+
+
+
+    .span-card {
+        font-size: 40px;
+    }
+
+    .para-size {
+        font-size: 80px;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (max-width : 577px) {
+    .bg-container {
+        background: linear-gradient(rgb(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://res.cloudinary.com/drmukp5dw/image/upload/v1690106629/ocean-3605547_1280_eeztrm.jpg");
+        background-size: cover;
+        height: 100vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .para-size {
+        font-size: 50px;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+        box-sizing: border-box;
+    }
+
+    .clock-card {
+        color: antiquewhite;
+        background-color: transparent;
+
+        padding: 12px;
+        border-width: 20px;
+        border-radius: 12px;
+
+
+
+    }
+}
+
+@media (max-width : 407px) {
+    .para-size {
+        font-size: 40px;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+        box-sizing: border-box;
+    }
+}
